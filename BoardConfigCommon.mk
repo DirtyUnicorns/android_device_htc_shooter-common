@@ -42,6 +42,9 @@ TARGET_USES_OVERLAY := true
 # Hardware Rendering
 TARGET_USES_PMEM := true
 
+# Recovery
+USE_SET_METADATA := true
+
 # Camera
 BOARD_HTC_3D_SUPPORT := true
 
