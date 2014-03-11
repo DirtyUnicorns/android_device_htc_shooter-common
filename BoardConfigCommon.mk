@@ -36,7 +36,6 @@
 BOARD_KERNEL_BASE := 0x48000000
 BOARD_KERNEL_PAGE_SIZE := 2048
 
-COMMON_GLOBAL_CFLAGS += -DQCOM_ROTATOR_KERNEL_FORMATS
 TARGET_USES_OVERLAY := true
 
 # Hardware Rendering
@@ -49,7 +48,6 @@ USE_SET_METADATA := true
 BOARD_HTC_3D_SUPPORT := true
 
 # Kernel
-TARGET_KERNEL_SOURCE   := kernel/htc/msm8660
 BUILD_KERNEL           := true
 
 # Custom lun file path
