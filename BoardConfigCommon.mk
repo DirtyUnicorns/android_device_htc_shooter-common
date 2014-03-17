@@ -38,9 +38,6 @@ BOARD_KERNEL_PAGE_SIZE := 2048
 
 TARGET_USES_OVERLAY := true
 
-# Hardware Rendering
-TARGET_USES_PMEM := true
-
 # Recovery
 USE_SET_METADATA := true
 
